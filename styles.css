@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+.text {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
+#star {
+    width: 1rem;
+    height: 1rem;
+}
+.star-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: hsl(218, 13%, 24%);
+    border-radius: 50%;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 20rem;
+    padding: 1rem;
+    margin: auto auto;
+    border-radius: 20px;
+}
+.card-body h2 {
+    font-weight: 700;
+}
+.card-body p {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+}
+.button {
+    border-radius: 50%;
+    background-color: hsl(218, 13%, 24%);
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    height: 40px;
+    width: 40px;
+    color: hsl(217, 12%, 63%);
+    margin: 10px;
+}
+
+.button:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+
+#submit {
+    width: 18rem;
+    border: none;
+    border-radius: 20px;
+    height: 1.5rem;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
