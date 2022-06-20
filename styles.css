@@ -1,5 +1,8 @@
 body {
+    display: flex;
+    justify-content: center;
     background-color: hsl(216, 12%, 8%);
+    padding-top: 10rem;
 }
 .text {
     color: hsl(0, 0%, 100%);
@@ -18,8 +21,10 @@ body {
     background-color: hsl(218, 13%, 24%);
     border-radius: 50%;
 }
-.card-body {
+#card {
     display: flex;
+}
+.card-body {
     flex-direction: column;
     align-items: center;
     background-color: hsl(213, 19%, 18%);
@@ -59,4 +64,44 @@ body {
     height: 1.5rem;
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+
+#rating {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    background-color: hsl(213, 19%, 18%);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+#rating img {
+    width: 10rem;
+    height: 5rem;
+
+}
+#rating p {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+}
+#rating h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+#output {
+    display: flex;
+    justify-content: center;
+    height: 1rem;
+    background-color: hsl(218, 13%, 24%);
+    width: 10rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
 }
