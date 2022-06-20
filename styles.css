@@ -50,6 +50,7 @@ body {
     width: 40px;
     color: hsl(217, 12%, 63%);
     margin: 10px;
+    flex-wrap: nowrap;
 }
 
 .button:hover {
