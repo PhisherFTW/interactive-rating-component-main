@@ -17,23 +17,7 @@ button2.addEventListener('click', clickfunction);
 button3.addEventListener('click', clickfunction);
 button4.addEventListener('click', clickfunction);
 button5.addEventListener('click', clickfunction);
-button1.addEventListener('mouseover', hoverfunction);
-button2.addEventListener('mouseover', hoverfunction);
-button3.addEventListener('mouseover', hoverfunction);
-button4.addEventListener('mouseover', hoverfunction);
-button5.addEventListener('mouseover', hoverfunction);
-// button1.addEventListener('mouseout', unhoverfunction);
-// button2.addEventListener('mouseout', unhoverfunction);
-// button3.addEventListener('mouseout', unhoverfunction);
-// button4.addEventListener('mouseout', unhoverfunction);
-// button5.addEventListener('mouseout', unhoverfunction);
 
-function hoverfunction (e) {
-    document.querySelector('#'+e.target.id).style.backgroundColor = 'grey';
-}
-// function unhoverfunction (e) {
-//     document.querySelector('#'+e.target.id).style.backgroundColor = 'hsl(218, 13%, 24%)';
-// }
 let button = document.getElementsByClassName('button')
 function reset () {
     for (i=0;i<button.length;i++)
